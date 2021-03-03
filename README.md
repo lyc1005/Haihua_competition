@@ -10,7 +10,7 @@ How to use the baseline:
 
 1. Install required packages 
 ```
-pip install requirements
+pip install requirements.txt
 ```
 
 2. Download competition data from Biendata websites, move the `train.json` and `validation.json` into the same directory as the codes, then run following codes for training
