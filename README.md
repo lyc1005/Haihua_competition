@@ -8,12 +8,12 @@ Competition Link:
 
 How to use the baseline:
 
-1. install required packages 
+1. Install required packages 
 ```
 pip install requirements
 ```
 
-2. move the train.json and validation.json into the same directory as the codes
+2. Download competition data from Biendata websites, move the `train.json` and `validation.json` into the same directory as the codes, then run following codes for training
 ```
 python preprocessing.py
 
