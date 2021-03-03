@@ -20,4 +20,4 @@ python preprocessing.py
 python run_base.py --task_name rc --do_train --do_eval --data_dir . --init_checkpoint hfl/chinese-bert-wwm-ext --max_seq_length 512 --train_batch_size 16 --eval_batch_size 8 --learning_rate 1e-5 --num_train_epochs 5 --output_dir mrc_bert --gradient_accumulation_steps 8
 ```
 
-After finishing running, there would be a test_output.csv in your output folder for you to submit.
+After finishing running, there would be a `test_output.csv` in your output folder for you to submit.
